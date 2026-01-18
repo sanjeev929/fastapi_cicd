@@ -10,3 +10,7 @@ def get_server():
 @app.get("/name")
 def get_name():
     return {"name":"fastapi"}
+
+@app.get("/lan")
+def get_lan():
+    return {"lan":"python"}
